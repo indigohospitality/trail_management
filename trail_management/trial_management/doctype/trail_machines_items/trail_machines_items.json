@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-03-05 12:38:34.317951",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_code",
+  "item_name",
+  "manufacture_date",
+  "expired_by",
+  "generate_barcode"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Data",
+   "ignore_user_permissions": 1,
+   "in_list_view": 1,
+   "label": "Item Code"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Read Only",
+   "label": "Item Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "manufacture_date",
+   "fieldtype": "Date",
+   "label": "Manufacture Date"
+  },
+  {
+   "fieldname": "expired_by",
+   "fieldtype": "Date",
+   "label": "Expired By"
+  },
+  {
+   "bold": 1,
+   "fieldname": "generate_barcode",
+   "fieldtype": "Button",
+   "label": "Generate Barcode"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-03-06 12:29:40.882572",
+ "modified_by": "Administrator",
+ "module": "Trial management",
+ "name": "Trail Machines Items",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
